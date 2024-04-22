@@ -1,0 +1,153 @@
+body{
+  background-color:  hsl(210, 60%, 98%);
+  width: 1440px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-family:'Plus Jakarta Sans', sans-serif;
+  font-weight: 800px;
+}
+
+
+.notifications-container{
+ background-color:white;
+ height: 510px;
+ width: 450px;
+ display: flex;
+ flex-direction: column;
+ 
+}
+.top-container{
+  display: flex;
+  justify-content:space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+.span-1{
+  display: inline-block;
+  margin-left: 10px;
+  background-color: hsl(219, 85%, 26%);
+  text-align: center;
+  width: 25px;
+  border-radius: 5px;
+  color:white;
+}
+.first-p{
+  font-size: 12px;
+  margin-top: 22px;
+  color: hsl(219, 14%, 63%);
+  cursor: pointer;
+}
+.notification-box{
+  display: flex;
+  
+  
+}
+img{
+  height: 30px;
+  margin-top: 4px;
+}
+.description{
+font-size: 9px;
+display: inline-block;
+margin-left: 18px;
+line-height: 3px;
+
+}
+
+.notification-span-1{
+  font-weight: bold;
+}
+
+.red-dot{
+  background-color: red;
+  height:5px;
+  width: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+
+}
+.notification-section{
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color:hsl(225, 20%, 96%);
+  padding: 10px;
+  border-radius: 10px;
+  height: 30px;
+  margin-bottom: 3px;
+}
+.notification-section-dm{
+  background-color: white;
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 40px;
+}
+.description-2 {
+  font-size: 9px;
+  display: inline-block;
+  margin-left: 18px;
+   
+}
+.private-message{
+  border: 1px solid rgb(236, 232, 232);
+  padding-left: 10px;
+  width: 338px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+ 
+.notification-section-smith{
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 30px;
+  margin-top: 55px;
+  margin-bottom: 3px;
+  position: relative;
+}
+.commented-picture{
+  margin-left:120px;
+}
+.end-game{
+  line-height: 10px;
+  font-weight: 800;
+}
+.notification-section-nathan{
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 30px;
+  margin-bottom: 3px; 
+}
+.notification-section-anna{
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 30px;
+  margin-top: 10px; 
+}
+.notification-section-2{
+  background-color: white;
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 30px;
+  margin-bottom: 3px;
+}
